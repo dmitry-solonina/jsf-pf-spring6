@@ -4,7 +4,7 @@ rem create a file named b-next.bat and place it in your ~\\b-next folder with th
 set JAVA_HOME=c:\java\jdk-17.0.6
 set MAVEN_HOME=c:\java\apache-maven
 
-call %userprofile%\.bnext\b-next.bat
+rem call %userprofile%\.bnext\b-next.bat
 
 set PATH=%JAVA_HOME%\bin;%MAVEN_HOME%\bin;%PATH%
 java -version
